@@ -1,5 +1,7 @@
 #!/bin/bash
-# modified from set_mvn which is modified from setjdk
+# modified from setmvn (http://blog.organicelement.com/2009/11/02/managing-multiple-maven-versions/) 
+# which is modified from setjdk (http://docs.codehaus.org/display/ninja/setjdk)
+# added a GRAILS_PARENT env variable rather than having the path inline in the script
 
 function defaultgrails {
     local grailsdir=$GRAILS_PARENT
